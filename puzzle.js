@@ -147,7 +147,7 @@
 		tapPanel(no);
 		// 完成か否かを判定して，完成ならメッセージを表示．
 		if (clear(panels)) {
-			document.getElementById("message").innerHTML = "<p style="font-size:150%;">\\ HAPPY BIRTHDAY! /<br>\\ COSY! /<\/p>";
+			document.getElementById("message").innerHTML = "<p>\\ HAPPY BIRTHDAY! /<br>\\ COSY! /<\/p>";
 			context.drawImage(image, 0, 0);
 			
 		}
