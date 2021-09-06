@@ -3,8 +3,8 @@ let screen_h = window.innerHeight;
 
 const KAMIFUBUKI = 150;
 const COLORS =
-["#33FF66","#FFFF00", "#FF990","#FF0000","#6600FF","#1E90FF","#FFFFE0"];
-//["#F5A4B8","#BEC14B","#DED5C0","#F8D400","#BBD33E","#A85EAC","#D64464",];
+//["#33FF66","#FFFF00", "#FF990","#FF0000","#6600FF","#1E90FF","#FFFFE0"];
+["#F5A4B8","#BEC14B","#DED5C0","#F8D400","#BBD33E","#A85EAC","#D64464",];
 //鴇色(とき),鶸色(ひわ),象牙色,ジョンブリアン,シャトルーズグリーン,パープル,ローズ
 
 function rand(min , max){//minとmaxの間で整数の乱数を求める
