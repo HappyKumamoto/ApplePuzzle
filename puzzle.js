@@ -1,4 +1,8 @@
  "use strict";
+
+const el = document.createElement("script");//紙吹雪のkami.jsを持ってくる
+el.src = "kamiFu.js";
+
   window.onload = function () {
 	let size, main_image, panels, cell_w, cell_h, canvas, context, image;
 
@@ -149,6 +153,7 @@
 		if (clear(panels)) {
 			document.getElementById("message").innerHTML = "<h1>\\ HAPPY BIRTHDAY! /<br>\\ COSY! /<\/h1>";
 			context.drawImage(image, 0, 0);
+			document.body.appendChild(el);  //kami.jsで紙吹雪を出す
 			
 		}
 	}
