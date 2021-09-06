@@ -2,8 +2,9 @@ let screen_w = window.innerWidth;
 let screen_h = window.innerHeight;
 
 const KAMIFUBUKI = 150;
-const COLORS = 
-["#F5A4B8","#BEC14B","#DED5C0","#F8D400","#BBD33E","#A85EAC","#D64464",];
+const COLORS =
+["#00FF00","#FFFF00", "FF8C00","FF0000","#8A2BE2","#4169E1","#F5F5F5"];
+//["#F5A4B8","#BEC14B","#DED5C0","#F8D400","#BBD33E","#A85EAC","#D64464",];
 //鴇色(とき),鶸色(ひわ),象牙色,ジョンブリアン,シャトルーズグリーン,パープル,ローズ
 
 function rand(min , max){//minとmaxの間で整数の乱数を求める
